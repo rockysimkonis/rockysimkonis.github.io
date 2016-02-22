@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Big O Complexity and Notation</title>
+    <link type="text/css" rel="stylesheet" href="../stylesheets/default.css">
+    <link type="text/css" rel="stylesheet" href="../stylesheets/blog.css">
+
+  </head>
+  <body>
+    <div id="page">
+    <header>
+      <a href="index.html" id="logo">
+        <h1>Rocky Simkonis</h1>
+        <h2>Junior Web Developer</h2>
+      </a>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="blog-template.html" id="selected">Blog</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <article id="post">
+      <h2>Big O Complexity and Notation</h2>
+      <ul>
+        <li>Rocky S.</li>
+        <li>Feb 21, 2016</li>
+        <li>Sharable links</li>
+      </ul>
+        </p>
+        <p>
+            <p>The Big O notation is the language used to determine how fast an algorithm will run. Basically it is a method used to measure the efficiency of a particular problem.
+            The measurement test with big O notation is testing the runtime as it grows relative to the input.</p>
+
+            <p>This can be broken down into a couple steps:</p>
+            <ol>
+                <li>Runtime growth
+                    <ul>
+                        <li>Because you can have multiple factors that can affect runtime such as processor speed and ram it is not so easy to make accurate predictions on algorithm speed. Therefore the measurement used is big O notation.</li>
+                    </ul>
+                </li>
+                <li>Size of input
+                    <ul>
+                        <li>The runtime growth is expressed in (O(n))</li>
+                    </ul>
+                </li>
+                <li>As input grows
+                    <ul>
+                        <li>The most important part is measuring how fast something runs as the the input grows. As n grows everything else becomes irrelevant.</li>
+                    </ul>
+                </li>
+            </ol>
+        <p>Here is an example below where the runtime will grow as the input increases in size
+        <code>
+            <br />
+            def contains?(array, value)<br />
+                array.each do |item|<br />
+                    return true if item == value<br />
+                end<br />
+                false<br />
+            end<br />
+        </code>
+        </p>
+        <p>References</p>
+
+            https://www.interviewcake.com/article/java/big-o-notation-time-and-space-complexity <br />
+
+            https://samurails.com/interview/big-o-notation-complexity-ruby/
+        </p>
+    </article>
+    <footer>
+      <ul>
+        <li>
+          <a href="https://twitter.com/RSimkonis"><img src="imgs/05-twitter.svg" alt="twitter" class="social-icon" /></a>
+        </li>
+        <li>
+          <a href="#"><img src="imgs/11-linkedin.svg" alt="linked in" class="social-icon" /></a>
+        </li>
+        <li>
+          <a href="https://github.com/rockysimkonis"><img src="imgs/41-github.svg" alt="github" class="social-icon" /></a>
+        </li>
+        <li>
+          <a href="https://www.facebook.com/rokas.simkonis"><img src="imgs/06-facebook.svg" alt="facebook" class="social-icon"></a>
+        </li>
+      </ul>
+      <p> &copy; 2016 Rocky Simkonis</p>
+    </footer>
+  </div>
+  </body>
+</html>
