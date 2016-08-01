@@ -1,47 +1,59 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <meta charset="UTF-8">
-  <title>Home - Rocky S</title>
-  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,400italic' rel='stylesheet' type='text/css'>
-  <link type="text/css" rel="stylesheet" href="stylesheets/default.css"
-</head>
-<body>
-  <div id="page">
-    <header>
-      <a href="index.html" id="logo">
-        <h1>Rocky Simkonis</h1>
-        <h2>Junior Web Developer</h2>
-      </a>
-      <nav>
-        <ul>
-          <li><a href="#" id="selected">Home</a></li>
-          <li><a href="#">Blog</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Contact</a></li>
-        </ul>
-      </nav>
-    </header>
-    <section id="portfolio">
-      <p>Projects Coming Soon</p>
-    </section>
-    <footer>
-      <ul>
-        <li>
-          <a href="https://twitter.com/RSimkonis"><img src="imgs/05-twitter.svg" alt="twitter" class="social-icon" /></a>
-        </li>
-        <li>
-          <a href="#"><img src="imgs/11-linkedin.svg" alt="linked in" class="social-icon" /></a>
-        </li>
-        <li>
-          <a href="https://github.com/rockysimkonis"><img src="imgs/41-github.svg" alt="github" class="social-icon" /></a>
-        </li>
-        <li>
-          <a href="https://www.facebook.com/rokas.simkonis"><img src="imgs/06-facebook.svg" alt="facebook" class="social-icon"></a>
-        </li>
-      </ul>
-      <p> &copy; 2016 Rocky Simkonis</p>
-    </footer>
-  </div>
-</body>
+    <head>
+        <title>Rocky S | About Me</title>
+        <link href="css/normalize.css" rel="stylesheet" type="text/css" media="screen" title="normalize" charset="utf-8">
+        <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+        <link href="css/style.css" rel="stylesheet" type="text/css" media="screen" title="normalize" charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <header id="home">
+            <nav>
+                <ul class="nav-bar">
+                    <li class="nav-home"><a href="#home">Home</a></li>
+                    <li class="nav-about-me"><a href="#about">About Me</a></li>
+                    <li class="nav-contact"><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="main">
+                <h1>Hi, I'm Rocky!</h1>
+                <img class="profile-pic" src="img/rocky_simkonis.jpg" alt="Profile Picture">
+                <h2>I am <span class="element"></span></h2>
+            </div>
+        </header>
+        <div id="wrapper">
+            <section id="about">
+                <h2>About</h2>
+                <p>I have a background in web development, support engineering, and sales. My purpose is to transcend this role and start a career as a full stack developer. </p>
+                <p>When I am not working or studying you can find me at the gym lifting weights or preparing for the next long distance run.
+                I enjoy a good cup of coffee, ping pong, camping, and a proper steak.</p>
+            </section>
+            <section id="contact">
+                <h2>Let's talk</h2>
+                <p>I am currently taking on new opportunities and can be reached by email at <a href="mailto:rokas.simkonis@gmail.com">rokas.simkonis@gmail.com</a>.</p>
+                <div class="icon-box">
+                    <ul class="social-links">
+                        <li>
+                            <a class="social-logo" href="https://www.linkedin.com/in/rokassimkonis" target="_blank"><img src="img/icons/linkedin-logo.svg" /></a>
+                        </li>
+                        <li>
+                            <a class="social-logo" href="https://github.com/rockysimkonis" target="_blank"><img src="img/icons/github.svg" /></a>
+                        </li>
+                        <li>
+                        <a class="social-logo" href="https://twitter.com/RSimkonis" target="_blank">
+                            <img src="img/icons/twitter-logo.svg" />
+                        </a>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+        </div>
+        <footer>
+            <p>&copy; 2015 Rocky Simkonis</p>
+        </footer>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+        <script src="js/typed.js"></script>
+        <script src="js/app.js"></script>
+    </body>
 </html>
